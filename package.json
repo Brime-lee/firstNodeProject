@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mongoose": "^6.4.6",
+    "underscore": "^1.13.4"
+  },
+  "name": "firstnodeproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
