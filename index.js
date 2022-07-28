@@ -1,9 +1,15 @@
+const morgan = require('morgan');
+const helmet = require('helmet');
 const JOI = require('joi');
 const logger = require('./logger');
 const express = require('express');
 const app = express();
 
 app.use(express.json());
+app.use(express.urlencoded());
+app.use(express.static('public'));
+app.use(express.helmet());
+app.use(express.morgan('tiny'));
 
 app.use(logger);
 const courses = [
